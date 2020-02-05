@@ -1,8 +1,8 @@
 //============================================================================
-// Name        : ExpressionConversion.cpp
+// Name        : Assignment 1 - Expression Conversion and Evaluation.cpp
 // Author      : Saarth Deshpande 23150
 // Version     :
-// Copyright   : Your copyright notice
+// Copyright   : 
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
