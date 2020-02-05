@@ -1,8 +1,8 @@
 //============================================================================
-// Name        : ass4.cpp
-// Author      : 
+// Name        : Assignment 4 - Expression Tree
+// Author      : Saarth Deshpande 23150
 // Version     :
-// Copyright   : Your copyright notice
+// Copyright   : 
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
