@@ -1,8 +1,8 @@
 //============================================================================
-// Name        : ass3.cpp
-// Author      : 
+// Name        : Assignment 3 - Binary Tree Operations
+// Author      : Saarth Deshpande 23150
 // Version     :
-// Copyright   : Your copyright notice
+// Copyright   : 
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
