@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : Assignment 4 - Expression Tree
+// Name        : Assignment 4 - Expression Tree Operations
 // Author      : Saarth Deshpande 23150
 // Version     :
 // Copyright   : 
