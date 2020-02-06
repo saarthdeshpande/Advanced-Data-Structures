@@ -1,8 +1,8 @@
 //============================================================================
-// Name        : Assignment 4 - Expression Tree
-// Author      : Saarth Deshpande 23150
+// Name        : ass4.cpp
+// Author      : 
 // Version     :
-// Copyright   : 
+// Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
 //============================================================================
 
@@ -18,11 +18,11 @@ int main()
 	int resp;
 	do
 	{
-		cout << "\n\nExpression Tree\n\n1. Input Expression\n2. Display Traversals\n3. Exit\nYour Choice: ";
+		cout << "\nExpression Tree\n\n1. Input Expression\n2. Display Traversals\n3. Exit\nYour Choice: ";
 		cin >> resp;
 		switch(resp)
 		{
-			case 1: cout << "Input PostFix Expression: ";
+			case 1: cout << "Input PostFix / PreFix Expression: ";
 					cin.ignore();
 					cin >> inputExpression;
 					t.createTree(inputExpression);
