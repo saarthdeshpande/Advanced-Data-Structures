@@ -154,27 +154,25 @@ void TreeADT::NonRecursivePreOrder(BNode *T)
 
 void TreeADT::NonRecursivePostOrder(BNode *T)
 {
-	if(T == NULL)
+	StackADT s;
+	BNode *p = T;
+	s.push(T);
+	while(!s.isempty() && T != NULL)
 	{
-		cout << "\nTree is Empty.\n";
-		return;
-	}
-	StackADT s1, s2;	// Create two stacks
-	s1.push(T);		// push root to first stack
-	BNode* node;
-	while (!s1.isempty()) 	// Run while first stack is not empty
-	{
-		node = s1.pop();	// Pop an item from s1 and push it to s2
-		s2.push(node);
-		if (node -> left)		// Push left and right children of removed item to s1
-			s1.push(node -> left);
-		if (node -> right)
-			s1.push(node -> right);
-	}
-	while (!s2.isempty())	// Print all elements of second stack
-	{
-		node = s2.pop();
-		cout << node -> info;
+		T = s.peep();
+		if((T -> left == NULL && T -> right == NULL) || (p == T -> left || p == T -> right))
+		{
+			// nodes without children should be printed
+			//or nodes whose children have already been printed
+			cout << T -> info;
+			s.pop();
+			p = T;
+		}
+		else
+		{
+			if(T -> right != NULL) s.push(T -> right);
+			if(T -> left != NULL) s.push(T -> left);
+		}
 	}
 }
 
