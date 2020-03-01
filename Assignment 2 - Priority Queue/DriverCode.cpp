@@ -1,9 +1,7 @@
 /*
-
-Roll Number : 23150
+Name: Saarth Deshpande
+Roll Number: 23150
 Batch: G9
-Mock Practical : Assignment No. 2
-
 */
 
 #include "QueueADT.h"
