@@ -8,9 +8,7 @@
 
 #include <iostream>
 using namespace std;
-
 #include "Facebook.h"
-#include <iomanip>
 
 int main()
 {
@@ -36,19 +34,19 @@ int main()
 		switch(resp)
 		{
 			case 1: f.createGraph();
-					break;
+				break;
 			case 2: f.displayUsers();
-					break;
+				break;
 			case 3: cout << "\nMaximum Friends: " << f.DFS(1) << endl;
-					break;
+				break;
 			case 4: cout << "\nMaximum Comments: " << f.DFS(2) << endl;
-					cout << "Minimum Comments: " << f.minCommentsBFS() << endl;
-					break;
+				cout << "Minimum Comments: " << f.minCommentsBFS() << endl;
+				break;
 			case 5: cout << "\nEnter Birthday Month: ";
-					cin >> month;
-					cout << "Users with Birthday in Requested Month:\n";
-					f.birthdayMonth(month);
-					break;
+				cin >> month;
+				cout << "Users with Birthday in Requested Month:\n";
+				f.birthdayMonth(month);
+				break;
 			case 6: return 1;
 			default: cout << "\nPlease enter a valid response.\n";
 		}
