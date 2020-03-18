@@ -1,6 +1,6 @@
 //============================================================================
 // Name        : Assignment 10 - MST using Prim's Algorithm
-// Author      : Saarth Deshpande
+// Author      : Saarth Deshpande 23150
 // Version     :
 // Copyright   : Your copyright notice
 // Description : Hello World in C++, Ansi-style
