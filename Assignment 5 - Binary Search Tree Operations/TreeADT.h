@@ -33,7 +33,6 @@ public:
 	void nonRecursiveMirror();
 	bool recursiveSearch(BNode*,int);
 	bool nonRecursiveSearch(int);
-	bool nonRecursiveSearch();
 	int depth(BNode*);
 	void printLevelOrder(BNode*);
 	virtual ~TreeADT();
